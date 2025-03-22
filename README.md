@@ -16,6 +16,11 @@ This project aims to predict the risk of heart disease using two models: a *Deci
 
 5. *User Input Prediction*:
    - Allowing users to input their medical data for prediction using both the Decision Tree model and the Expert System.
+   - 
+# #Using the Model:
+•The system will prompt you to enter your details (age, cholesterol levels, blood pressure, etc.). The program will output the predicted risk of heart disease from both the Decision Tree Model and the Expert System.
+## Viewing Results:
+You can also view the statistical summary, heatmap, and other visualizations generated during data analysis
 
 ## Files in the Repository
 	•	heart.py: The main Python script containing all the steps for dataset processing, model training, and user prediction.
@@ -25,3 +30,23 @@ This project aims to predict the risk of heart disease using two models: a *Deci
 	•	histograms.png: Histograms of different features.
 	•	feature_importance.png: A bar chart showing the most important features based on the Decision Tree.
 	•	decision_tree_model.pkl: The saved Decision Tree model used for predictions.
+ 
+## Example Inputs
+
+For user input prediction, enter values as instructed:
+	•Age (normalized 0-1)
+	•Cholesterol (normalized 0-1)
+	•Blood Pressure (normalized 0-1)
+	•max Heart Rate (normalized 0-1)
+	•ST Depression (normalized 0-1)
+	•Exercise-Induced Angina (1: Yes, 0: No)
+ 
+ ## Model Evaluation
+
+The project evaluates the models using metrics like:
+	•Accuracy: The proportion of correct predictions.
+	•Precision: The proportion of positive predictions that are correct.
+	•Recall: The proportion of actual positives correctly predicted.
+	•F1-Score: A balance between precision and recall.
+ ## how to run the project 
+ After setting up the environment,you can run the main script (heart.py)
